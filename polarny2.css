@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=latin-ext");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 300; }
+
+html {
+  background: url(tlo.png) no-repeat top center fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif; }
+
+header {
+  text-align: center; }
+
+.header-topic {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #007FFF;
+  width: 100%;
+  line-height: 2em;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0 15px; }
+
+.header-title {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+nav a {
+  display: inline-block;
+  color: #007FFF;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1); }
+nav:hover {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.okienko-baza {
+  display: none;
+  background-color: rgba(0, 127, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  overflow: auto; }
+
+.okienko-wnetrze {
+  background-color: #007FFF;
+  padding: 15px;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 60px; }
+  .okienko-wnetrze li {
+    line-height: 2em; }
+  .okienko-wnetrze p {
+    line-height: 1.5em; }
+
+.okienko-zamknij {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 30; }
+
+.uklad {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.uklad > div {
+  transform: scale(1);
+  transition-duration: 0.5s; }
+
+.uklad > div:hover {
+  transform: scale(2);
+  z-index: 20;
+  cursor: pointer; }
+
+.gallery {
+  width: 150px;
+  height: 150px;
+  background-size: cover !important;
+  background-position: center center !important; }
+
+.encja {
+  margin-right: 5px; }
+
+.gallery1 {
+  background: url("http://i63.tinypic.com/2j8i2b.jpg"); }
+
+.gallery2 {
+  background: url("http://i66.tinypic.com/4q6e68.jpg"); }
+
+.gallery3 {
+  background: url("http://i63.tinypic.com/14brtc1.jpg"); }
+
+.gallery4 {
+  background: url("http://i66.tinypic.com/2repco6.jpg"); }
+
+.gallery5 {
+  background: url("http://i64.tinypic.com/14mdkoy.jpg"); }
+
+.gallery6 {
+  background: url("http://i63.tinypic.com/sy1ffq.jpg"); }
+
+.gallery7 {
+  background: url("http://i63.tinypic.com/j79u8z.jpg"); }
+
+.gallery8 {
+  background: url("http://i68.tinypic.com/bhjdi0.jpg"); }
+
+.gallery9 {
+  background: url("http://i67.tinypic.com/m8d9mx.jpg"); }
+
+.gallery10 {
+  background: url("http://i65.tinypic.com/24q30qa.jpg"); }
+
+.gallery11 {
+  background: url("http://i68.tinypic.com/2uq15hl.jpg"); }
+
+.gallery12 {
+  background: url("http://i68.tinypic.com/rs5rvr.jpg"); }
+
+.gallery13 {
+  background: url("http://i65.tinypic.com/2mmckms.jpg"); }
+
+.gallery14 {
+  background: url("http://i66.tinypic.com/mhx4zk.jpg"); }
+
+.gallery15 {
+  background: url("http://i67.tinypic.com/nzinm8.jpg"); }
+
+.gallery16 {
+  background: url("http://i66.tinypic.com/2zp1bms.jpg"); }
